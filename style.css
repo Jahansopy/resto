@@ -220,17 +220,16 @@ body {
     .menu {
       perspective: 800px;
     }
+    menu-list{
+      display: none;
+    }
     [aria-controls="menu-list"] {
       display: block;
       margin-bottom: 10px;
+      
     }
   
-/* @media (max-width: 945px) {
-  #menu-list .res {
-    font-size:  18px;
-  }
-  
-} */
+
   
 }
   
